@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+       <!-- Title -->
+        <title>DesCode Digital - Web and Mobile Application Development</title>
+
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="Descode Digital is a professional web and mobile app development agency delivering high-quality digital solutions. We provide modern websites, custom web applications, mobile apps, UI/UX design, and full-stack development services designed to help businesses grow, scale, and succeed online.">
+        <meta name="keywords" content="web development agency, mobile app development, UI UX design, frontend development, React developer, Next.js development, website design company, app development services, custom software development, digital agency, web application development, mobile app solutions, Descode Digital">
+        <meta name="author" content="Descode Digital">
+        <meta name="robots" content="index, follow">
+
+        <!-- CANONICAL URL -->
+        <link rel="canonical" href="https://descode.in">
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Descode Digital — Web & Mobile App Development Agency">
+        <meta property="og:description" content="Descode Digital provides professional web development, mobile app development, UI/UX design, and digital product solutions. We build fast, scalable, and modern applications for startups, businesses, and enterprises with a focus on quality, performance, and user experience.">
+        <meta property="og:url" content="https://descode.digital">
+        <meta property="og:image" content="https://descode.digital/assets/descode-social-banner.png">
+        <meta property="og:site_name" content="Descode Digital">
+
+        <!-- Twitter Card -->
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Descode Digital — Web & Mobile App Development Services">
+        <meta name="twitter:description" content="Descode Digital provides high-quality web and mobile app development services. We specialize in modern UI/UX design, responsive websites, custom web applications, mobile apps (iOS & Android), and full-stack solutions that help businesses grow with speed and innovation.">
+        <meta name="twitter:image" content="https://yourdomain.com/images/descode-social-banner.png">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <script>
+            window.addEventListener("scroll", function () {
+              const header = document.getElementById("mainHeader");
+
+              if (window.scrollY > 100) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            });
+        </script>
+
+        <style>
+              body { font-family: 'Poppins', sans-serif; }
+
+              /* Gradient background */
+              .bg-soft-gradient {
+                background: linear-gradient(to bottom, #fff6f9, #ffffff);
+              }
+
+              /* Accordion animation */
+              .accordion-content {
+                overflow: hidden;
+                max-height: 0;
+                transition: max-height 0.5s ease;
+              }
+
+              /* Image switch */
+              .image-slide {
+                transition: opacity 0.5s ease;
+              }
+
+              .opacity-0 {
+                opacity: 0;
+              }
+
+              /* Dashed circle */
+              .circle-dashed {
+                width: 520px;
+                height: 520px;
+                border: 2px dashed #f3a4c7;
+                border-radius: 50%;
+              }
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary1" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <div id="header"></div>
+
+
+
+        <!-- Carousel Start -->
+        <div class="header-carousel owl-carousel">
+            <div class="header-carousel-item">
+                <div class="header-carousel-item-img-1">
+                    <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Image">
+                </div>
+                <div class="carousel-caption">
+                    <div class="carousel-caption-inner text-start p-3">
+                        <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">Elevated Logo, Brand Identity & Social Media Design</h1>
+                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">Descode Digital creates refined brand identities and visually consistent social media designs that strengthen recognition, build trust, and elevate your brand across every touchpoint.
+                        </p>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Apply Now</a>
+                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+           <div class="header-carousel-item mx-auto">
+                <div class="header-carousel-item-img-2">
+                    <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
+                </div>
+                <div class="carousel-caption">
+                    <div class="carousel-caption-inner text-center p-3">
+                        <h1 class="display-1 text-capitalize text-white mb-4">Powerful Digital Experiences, Engineered Through UI/UX Excellence</h1>
+                        <p class="mb-5 fs-5">At Descode Digital, we combine strategic UI/UX design with modern web and mobile development to create digital experiences that are intuitive, scalable, and built to deliver real business impact.
+                        </p>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
+                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="header-carousel-item mx-auto">
+                <div class="header-carousel-item-img-2">
+                    <img src="img/carousel-6.jpg" class="img-fluid w-100" alt="Image">
+                </div>
+                <div class="carousel-caption">
+                    <div class="carousel-caption-inner text-center p-3">
+                        <h1 class="display-1 text-capitalize text-white mb-4">High-Performance React, Next.js & Node.js Development</h1>
+                        <p class="mb-5 fs-5">Descode Digital builds fast, scalable, and secure web applications using React, Next.js, and Node.js—engineered for performance, flexibility, and long-term growth.
+                        </p>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
+                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+             <div class="header-carousel-item">
+                <div class="header-carousel-item-img-3">
+                    <img src="img/carousel-5.jpg" class="img-fluid w-100" alt="Image">
+                </div>
+                <div class="carousel-caption">
+                    <div class="carousel-caption-inner text-end p-3">
+                        <h1 class="display-1 text-capitalize text-white mb-4">WordPress & Shopify for Growing Businesses.</h1>
+                        <p class="mb-5 fs-5">Descode Digital builds high-performing WordPress websites and Shopify stores that are fast, secure, and designed to convert.
+                        </p>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
+                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Section -->
+
+        <div id="about"></div>
+
+         <!-- End Section --> 
+
+        <!-- Service Section -->
+
+        <div id="service"></div>
+
+        <!-- End Section --> 
+
+        <!-- Why Choose Descode Section --> 
+
+        <section class="py-5 py-lg-5 bg-soft-gradient">
+          <div class="container">
+              <div class="row g-5 align-items-start">
+
+                <!-- LEFT ACCORDION -->
+                  <div class="col-12 col-lg-6">
+                      <h1 class="display-5">Why Choose<br /><strong> Descode Digital</strong></h1>
+                      <P>DesCode Service Offerings cover end-to-end design and development solutions, helping businesses build scalable, user-focused, and high-performing digital products.</P>
+
+                      <div id="accordion" class="d-flex flex-column gap-2 py-2">
+
+                          <!-- Item 1 -->
+                          <div>
+                            <button data-image="img1"
+                            class="accordion-btn acrd-btn w-100 d-flex justify-content-between align-items-center">
+                              <h4>Design-Driven Approach</h4>
+                              <span class="fw-bold display-4 opacity-25">01</span>
+                            </button>
+                            <div class="accordion-content">
+                              <div class="border border-2 rounded-2 border-primary border-danger-subtle bg-white rounded-4 p-4 mt-3 mb-2">
+                                <p class="text-secondary mb-0">
+                                  We combine strategy, UI/UX design, and creativity to build visually engaging and user-focused digital experiences that deliver real business value.
+                              </div>
+                            </div>
+                            
+                          </div>
+
+                          <!-- Item 2 -->
+                          <div>
+                            <button data-image="img2"
+                              class="accordion-btn acrd-btn w-100 d-flex justify-content-between align-items-center"
+                              >
+                              <h4>Scalable & Modern Development</h4>
+                              <span class="fw-bold display-4 opacity-25">02</span>
+
+                            </button>
+
+                            <div class="accordion-content">
+                              <div class="border border-2 rounded-2 border-primary border-danger-subtle bg-white rounded-4 p-4 mt-3 mb-2">
+                                <p class="text-secondary mb-0">
+                                  Our web and mobile applications are built using modern technologies and clean architecture, ensuring performance, scalability, and long-term growth.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Item 3 -->
+                          <div>
+                            <button data-image="img3"
+                              class="accordion-btn acrd-btn w-100 d-flex justify-content-between align-items-center">
+                              <h4>End-to-End Digital Expertise</h4>
+                              <span class="fw-bold display-4 opacity-25">03</span>
+                            </button>
+
+                            <div class="accordion-content">
+                              <div class="border border-2 rounded-2 border-primary border-danger-subtle bg-white rounded-4 p-4 mt-3 mb-2">
+                                <p class="text-secondary mb-0">
+                                  From concept and design to development, deployment, and support, we provide complete digital solutions tailored to your business goals.
+                                </p>
+                              </div>
+                            </div>
+
+                          </div>
+
+                      </div>
+                  </div>
+
+                  <!-- RIGHT IMAGE AREA -->
+                  <div class="col-12 col-lg-6 position-relative d-flex justify-content-center" style="position: relative; top:55px;">
+
+                      <div class="position-absolute circle-dashed rotateCircle"></div>
+                      <div class="position-absolute circle-dashed2 rotateCircle"></div>
+
+                      <div class="position-relative" style="width: 470px; height: 500px; top: 10px;">
+                        <img id="img1"
+                          src="img/design-approach.jpg" alt="Design-Driven Approach"
+                          class="image-slide position-absolute top-00 bottom-00  rounded-pill start-0 w-100 h-100 rounded-4  object-fit-cover">
+
+                        <img id="img2"
+                          src="img/design-approach.jpg" alt="Design-Driven Approach"
+                          class="image-slide position-absolute top-00 bottom-00  rounded-pill start-0 w-100 h-100 rounded-4  object-fit-cover">
+
+                        <img id="img3"
+                          src="img/design-approach.jpg" alt="Design-Driven Approach"
+                          class="image-slide position-absolute top-00 bottom-00  rounded-pill start-0 w-100 h-100 rounded-4  object-fit-cover">
+                      </div>
+
+                      <!-- Floating badge -->
+                      <div class="position-absolute top-50 end-0 translate-middle-y bg-white rounded-pill shadow px-4 py-3 d-flex align-items-center gap-3" style="padding-right: 20px; padding-left: 9px; line-height: 20px;">
+                        <div class="d-flex" style="margin-right:-8px;">
+                          <img class="rounded-circle border border-2 border-white me-n2" width="32" height="32" src="https://randomuser.me/api/portraits/men/32.jpg">
+                          <img class="rounded-circle border border-2 border-white me-n2" width="32" height="32" src="https://randomuser.me/api/portraits/women/44.jpg">
+                          <img class="rounded-circle border border-2 border-white" width="32" height="32" src="https://randomuser.me/api/portraits/men/52.jpg">
+                        </div>
+                        <div>
+                          <p class="text-danger fw-bold mb-0">1000+ Project</p>
+                          <small class="text-secondary"> 100% Completed</small>
+                        </div>
+                      </div> 
+
+                  </div>
+
+              </div>
+          </div>
+        </section>
+
+        <!-- End Section --> 
+
+        <!-- Case Study Section -->
+
+         <div class="container-fluid project mt-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h4 class="text-primary">our  - Recent Work &nbsp; </h4>
+                    <h1 class="display-5">Case Studies <br/> by <strong>DesCode Digital</strong></h1>
+                    <P>DesCode Service Offerings cover end-to-end design and development solutions, helping businesses build scalable, user-focused, and high-performing digital products.</P>
+                </div>
+                <div class="project-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="project-img">
+                            <img src="img/projects-1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                        </div>
+                        <div class="project-content bg-light rounded p-4">
+                            <div class="project-content-inner">
+                                <div class="project-icon mb-3"><i class="fa-regular fa-file-lines text-primary"></i></div>
+                                <p class="text-dark fs-5 mb-3">Business Growth</p>
+                                <a href="#" class="h4">Business Strategy And Investment Planning Growth Consulting</a>
+                                <div class="pt-4">
+                                    <a class="btn btn-light rounded-pill py-3 px-5" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="project-img">
+                            <img src="img/projects-1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                        </div>
+                        <div class="project-content bg-light rounded p-4">
+                            <div class="project-content-inner">
+                                <div class="project-icon mb-3"><i class="fa-regular fa-file-lines text-primary"></i></div>
+                                <p class="text-dark fs-5 mb-3">Marketing Strategy</p>
+                                <a href="#" class="h4">Product Sailing Marketing Strategy For Improve Business</a>
+                                <div class="pt-4">
+                                    <a class="btn btn-light rounded-pill py-3 px-5" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item h-100">
+                        <div class="project-img">
+                            <img src="img/projects-1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                        </div>
+                        <div class="project-content bg-light rounded p-4">
+                            <div class="project-content-inner">
+                                <div class="project-icon mb-3"><i class="fa-regular fa-file-lines text-primary"></i></div>
+                                <p class="text-dark fs-5 mb-3">Marketing Strategy</p>
+                                <a href="#" class="h4">Product Sailing Marketing Strategy For Improve Business</a>
+                                <div class="pt-4">
+                                    <a class="btn btn-light rounded-pill py-3 px-5" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Section --> 
+        
+
+        <!-- ------ Testimonial Section start ----- -->
+
+        <section class="gradient-custom">
+  <div class="container my-5 py-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-12">
+        <div class="text-center mb-4 pb-2">
+          <i class="fas fa-quote-left fa-3x text-white"></i>
+        </div>
+
+        <div class="card">
+          <div class="card-body px-4 py-5">
+            <!-- Carousel wrapper -->
+            <div id="carouselDarkVariant" data-mdb-carousel-init class="carousel slide carousel-dark" data-mdb-ride="carousel">
+              <!-- Indicators -->
+              <div class="carousel-indicators mb-0">
+                <button data-mdb-button-init data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button data-mdb-button-init data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="1"
+                  aria-label="Slide 1"></button>
+                <button data-mdb-button-init data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="2"
+                  aria-label="Slide 1"></button>
+              </div>
+
+              <!-- Inner -->
+              <div class="carousel-inner pb-5">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 col-xl-8">
+                      <div class="row">
+                        <div class="col-lg-4 d-flex justify-content-center">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                            class="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" width="150"
+                            height="150" />
+                        </div>
+                        <div
+                          class="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                          <h4 class="mb-4">Maria Smantha - Web Developer</h4>
+                          <p class="mb-0 pb-3">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                            aliquam amet animi blanditiis consequatur debitis dicta
+                            distinctio, enim error eum iste libero modi nam natus
+                            perferendis possimus quasi sint sit tempora voluptatem. Est,
+                            exercitationem id ipsa ipsum laboriosam perferendis.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 col-xl-8">
+                      <div class="row">
+                        <div class="col-lg-4 d-flex justify-content-center">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                            class="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" width="150"
+                            height="150" />
+                        </div>
+                        <div
+                          class="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                          <h4 class="mb-4">Lisa Cudrow - Graphic Designer</h4>
+                          <p class="mb-0 pb-3">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque laudantium, totam rem aperiam, eaque
+                            ipsa quae ab illo inventore veritatis et quasi architecto
+                            beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                            quia voluptas sit aspernatur.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 col-xl-8">
+                      <div class="row">
+                        <div class="col-lg-4 d-flex justify-content-center">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                            class="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" width="150"
+                            height="150" />
+                        </div>
+                        <div
+                          class="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                          <h4 class="mb-4">John Smith - Marketing Specialist</h4>
+                          <p class="mb-0 pb-3">
+                            At vero eos et accusamus et iusto odio dignissimos qui
+                            blanditiis praesentium voluptatum deleniti atque corrupti quos
+                            dolores et quas molestias excepturi sint occaecati cupiditate
+                            non provident, similique sunt in culpa qui officia mollitia
+                            animi id laborum et dolorum fuga.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Inner -->
+
+              <!-- Controls -->
+              <button data-mdb-button-init class="carousel-control-prev" type="button" data-mdb-target="#carouselDarkVariant"
+                data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button data-mdb-button-init class="carousel-control-next" type="button" data-mdb-target="#carouselDarkVariant"
+                data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- Carousel wrapper -->
+          </div>
+        </div>
+
+        <div class="text-center mt-4 pt-2">
+          <i class="fas fa-quote-right fa-3x text-white"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <!-- End Section --> 
+
+        <div id="about-descode"></div>
+
+        <!-- ------------------------------- -->
+         
+
+        <!-- ----------------------==== -->
+        
+
+        
+
+       
+
+
+
+        <div id="footer"></div>
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a> 
+        <!-- <a href="https://wa.me/919977007187" target="_blank" class="back-to-top whatsApp"><i style="" class="fa-brands fa-whatsapp"></i></a>   -->
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+<script>
+  const buttons = document.querySelectorAll('.accordion-btn');
+  const contents = document.querySelectorAll('.accordion-content');
+  const images = document.querySelectorAll('.image-slide');
+
+  function resetAll() {
+    // Remove active class
+    buttons.forEach(btn => btn.classList.remove('active'));
+
+    // Close all accordion contents
+    contents.forEach(content => {
+      content.style.maxHeight = null;
+    });
+
+    // Hide all images
+    images.forEach(img => img.classList.add('opacity-0'));
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetImage = btn.dataset.image;
+      const content = btn.nextElementSibling;
+
+      resetAll();
+
+      // Activate current button
+      btn.classList.add('active');
+
+      // Open accordion smoothly
+      content.style.maxHeight = content.scrollHeight + 'px';
+
+      // Show related image
+      if (targetImage) {
+        document.getElementById(targetImage)?.classList.remove('opacity-0');
+      }
+    });
+  });
+
+  // 🔥 Open first item by default
+  if (buttons.length > 0) {
+    buttons[0].classList.add('active');
+    contents[0].style.maxHeight = contents[0].scrollHeight + 'px';
+
+    const firstImage = buttons[0].dataset.image;
+    if (firstImage) {
+      document.getElementById(firstImage)?.classList.remove('opacity-0');
+    }
+  }
+</script>
+
+
+
+    <script>
+        fetch('components/header.html')
+        .then(res => res.text())
+        .then(data => document.getElementById('header').innerHTML = data);
+
+        // fetch('components/hero.html')
+        // .then(res => res.text())
+        // .then(data => document.getElementById('hero').innerHTML = data);
+
+        fetch('components/about.html')
+        .then(res => res.text())
+        .then(data => document.getElementById('about').innerHTML = data);
+
+         fetch('components/about-descode.html')
+        .then(res => res.text())
+        .then(data => document.getElementById('about-descode').innerHTML = data);
+
+        fetch('components/service.html')
+        .then(res => res.text())
+        .then(data => document.getElementById('service').innerHTML = data);
+        fetch('components/Why.html')
+        .then(res => res.text())
+        .then(data => document.getElementById('Why').innerHTML = data);
+
+
+        fetch('components/work.html')
+        .then(res => res.text())
+        .then(data => document.getElementById('work').innerHTML = data);
+
+        fetch('components/footer.html')
+        .then(res => res.text())
+        .then(data => document.getElementById('footer').innerHTML = data);
+    </script>
+
+
+
+
+
+
+
+
+    </body>
+
+</html>
